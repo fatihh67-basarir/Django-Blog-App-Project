@@ -1,1 +1,1 @@
-# Django-Blog-App-Project
+# Django-Todo-App-Project
