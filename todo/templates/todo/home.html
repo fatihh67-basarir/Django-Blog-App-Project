@@ -16,8 +16,9 @@
         <div>
             <ul>
         {% for todo in todos  %}
-        <li>
-            {{todo}}
+        <li >
+            <a href="{% url 'update' todo.id %}"> {{todo}} </a>
+            
         </li> 
     
         {% endfor %}
